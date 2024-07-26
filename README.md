@@ -23,3 +23,20 @@ When the relationship between the variables is better represented by a curve rat
 2. The polynomial regression model is trained to **find the coefficients** that minimize the difference between the predicted values and the actual values in the training data.
 3. Once the model is trained, it can be used to make predictions on new, unseen data. The polynomial equation captures the non-linear patterns observed in the training data, allowing the model to generalize to non-linear relationships. <br/>
 <br/>
+
+**Implementation** <br/>
+1. Data Preparation
+Before applying polynomial regression, data should be preprocessed, which includes:
+
+Data Cleaning: Handling missing values, outliers, and irrelevant features.
+Feature Scaling: Normalizing or standardizing data if needed.
+2. Creating Polynomial Features
+To implement polynomial regression, transform the original features into polynomial features. For example, if the original feature is 
+
+
+3. Model Fitting
+Use a linear regression model on the transformed polynomial features. Libraries like scikit-learn in Python provide built-in functions to create polynomial features and fit the model.
+4. Evaluation
+Evaluate the model using metrics like:
+* Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values.
+* R-squared: Indicates the proportion of variance in the dependent variable that is predictable from the independent variable(s).
