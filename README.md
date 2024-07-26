@@ -53,5 +53,5 @@ Evaluate the model using metrics like:
 * Interpretability: Higher-degree polynomials can become difficult to interpret. <br/>
 <br/>
 
-Conclusion
+**Conclusion** <br/>
 Polynomial Regression is a powerful tool for modeling complex relationships. However, it should be used carefully to avoid overfitting and ensure the model is interpretable and generalizes well.
