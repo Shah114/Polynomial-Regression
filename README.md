@@ -48,8 +48,10 @@ Evaluate the model using metrics like:
 * Physics: Analyzing physical phenomena with non-linear relationships. <br/>
 <br/>
 
-Limitations
-Overfitting: A high-degree polynomial can fit training data very well but may not generalize to new data.
-Interpretability: Higher-degree polynomials can become difficult to interpret.
+**Limitations** <br/>
+* Overfitting: A high-degree polynomial can fit training data very well but may not generalize to new data.
+* Interpretability: Higher-degree polynomials can become difficult to interpret. <br/>
+<br/>
+
 Conclusion
 Polynomial Regression is a powerful tool for modeling complex relationships. However, it should be used carefully to avoid overfitting and ensure the model is interpretable and generalizes well.
