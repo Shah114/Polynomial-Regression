@@ -25,18 +25,18 @@ When the relationship between the variables is better represented by a curve rat
 <br/>
 
 **Implementation** <br/>
-1. Data Preparation
+1. Data Preparation <br/>
 Before applying polynomial regression, data should be preprocessed, which includes:
 * Data Cleaning: Handling missing values, outliers, and irrelevant features.
 * Feature Scaling: Normalizing or standardizing data if needed.
   
-2. Creating Polynomial Features
+2. Creating Polynomial Features <br/>
 To implement polynomial regression, transform the original features into polynomial features.
 
-3. Model Fitting
+3. Model Fitting <br>
 Use a linear regression model on the transformed polynomial features. Libraries like scikit-learn in Python provide built-in functions to create polynomial features and fit the model.
 
-4. Evaluation
+4. Evaluation <br/>
 Evaluate the model using metrics like:
 * Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values.
 * R-squared: Indicates the proportion of variance in the dependent variable that is predictable from the independent variable(s).
